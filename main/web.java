@@ -46,7 +46,7 @@ public class web extends Thread {
 		// Get the first page
 		HtmlPage page1 = null;
 		try {
-			page1 = webClient.getPage("https://1.1.1.1/login.html");
+			page1 = webClient.getPage("http://wscg1:8080/form_auth/");
 		} catch (FailingHttpStatusCodeException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -113,7 +113,7 @@ public class web extends Thread {
 	{
 		try {
 			//make a URL to a known source
-			URL url = new URL("http://www.iitr.ac.in");
+			URL url = new URL("www.google.co.in");
 
 			//open a connection to that source
 			HttpURLConnection urlConnect = (HttpURLConnection)url.openConnection();
