@@ -27,7 +27,7 @@ System.out.println("Not Working");
 	{
 		try {
 			//make a URL to a known source
-			URL url = new URL("http://www.iitr.ac.in");
+			URL url = new URL("www.google.co.in);
 
 			//open a connection to that source
 			HttpURLConnection urlConnect = (HttpURLConnection)url.openConnection();
